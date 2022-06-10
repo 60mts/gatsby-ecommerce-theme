@@ -25,7 +25,7 @@ const AboutPage = (props) => {
       <div className={styles.root}>
         {/* Hero Container */}
         <Hero
-          maxWidth={'900px'}
+          maxWidth={'500px'}
           image={'/about.png'}
           title={``}
         />
