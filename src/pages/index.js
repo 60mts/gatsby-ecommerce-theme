@@ -110,11 +110,12 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'İş Ortaklarımız'}
+          bgColor={' gray'}
         
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/mmologo.png`} alt={''}  
-          maxWidth={'200px'}/>
+          maxWidth={'60px'}/>
         
         </div>
       </div>
