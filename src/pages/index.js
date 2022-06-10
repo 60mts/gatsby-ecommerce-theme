@@ -113,7 +113,8 @@ const IndexPage = () => {
         
         />
         <div className={styles.socialContentGrid}>
-          <img src={`/social/mmologo.png`} alt={''} />
+          <img src={`/social/mmologo.png`} alt={''}  
+          maxWidth={'200px'}/>
         
         </div>
       </div>
