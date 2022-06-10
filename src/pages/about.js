@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'500px'}
           image={'/about.png'}
-          title={``}
+          title={`Firmamız Hakkında`}
         />
 
         <div className={styles.navContainer}>
@@ -48,8 +48,7 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+            Firmamız 2021 Yılında kurulmuştur. Müşterilerimize ve anlaşmalı şirketlere Kaliteli hizmet vermek için çalışıyoruz.
             </p>
             <br />
             <br />
