@@ -16,6 +16,7 @@ import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
+
 const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
@@ -51,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Yapabildiklerimiz'} />
           <ProductCollectionGrid />
         </Container>
       </div>

@@ -38,7 +38,6 @@ const Footer = (prop) => {
       </ul>
     );
   };
-
   return (
     <div className={styles.root}>
       <Container size={'large'} spacing={'min'}>
@@ -47,14 +46,14 @@ const Footer = (prop) => {
             {Config.footerLinks.map((linkCollection, indexLink) => {
               return (
                 <div className={styles.footerLinkContainer} key={indexLink}>
-                  {/* for web version */}
+                 
                   <div className={styles.footerLinks}>
                     <span className={styles.linkTitle}>
                       {linkCollection.subTitle}
                     </span>
                     {renderLinks(linkCollection)}
                   </div>
-                  {/* for mobile version */}
+                  
                   <div className={styles.mobileFooterLinks}>
                     <Accordion
                       customStyle={styles}
@@ -69,10 +68,10 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}> - </span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                 ATA MÜHENDİSLİK & KALIP İMALATI
+                 2020 Yılında Yunus Emre ŞAHİN tarafından kurulmuştur.
                 </p>
                 <form
                   className={styles.newsLetterForm}
