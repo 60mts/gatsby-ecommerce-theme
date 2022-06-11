@@ -12,7 +12,7 @@ const Brand = (props) => {
     >
       {/* <h4>SYDNEY</h4> */}
     
-        <img src={'../static/ata-logo.jpg'}/>
+        <img src={'../static/atamuh.jpg'}/>
 
     </div>
   );
