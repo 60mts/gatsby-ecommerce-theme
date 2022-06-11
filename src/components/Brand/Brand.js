@@ -12,7 +12,7 @@ const Brand = (props) => {
     >
       {/* <h4>SYDNEY</h4> */}
     
-        
+        <img src={'/static/atalogo.png'}/>
     </div>
   );
 };

@@ -128,8 +128,12 @@ const Header = (prop) => {
             >
               <Icon symbol={'search'}></Icon>
             </button>
-          
-            
+            <Link
+              aria-label="Favorites"
+              href="/account/favorites"
+              className={`${styles.iconContainer} ${styles.hideOnMobile}`}
+            >
+              <Icon symbol={'heart'}></Icon>
             </Link>
             <Link
               aria-label="Orders"
@@ -156,7 +160,7 @@ const Header = (prop) => {
             </div>
           </div>
         </div>
-)
+
         {/* search container */}
         <div
           className={`${styles.searchContainer} ${
@@ -198,10 +202,9 @@ const Header = (prop) => {
             }}
             className={styles.backdrop}
           ></div>
-      </div>
+        </div>
+      </Container>
 
-    </Container>
-    {}
       {/* menu container */}
       <div
         role={'presentation'}
